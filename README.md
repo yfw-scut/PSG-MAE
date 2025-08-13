@@ -1,3 +1,7 @@
+# PSG-MAE
+
+This repository contains the official source code for **PSG-MAE**, as described in the paper: **"PSG-MAE: Robust Multitask Sleep Event Monitoring using Multichannel PSG Reconstruction and Inter-channel Contrastive Learning"**. PSG-MAE is a masked autoencoder framework for multichannel polysomnography (PSG) signals, supporting robust pretraining and transfer to multiple downstream tasks such as sleep staging and sleep apnea detection.
+
 ## Pretraining
 ```bash
 python pre-train.py --epochs 200 --batch-size 64
