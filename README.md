@@ -5,7 +5,7 @@ PSG-MAE is a masked autoencoder framework for multichannel polysomnography (PSG)
 
 ---
 
-## 🔧 Environment
+## Environment
 
 > Tested with **Python 3.8**. You can install via Conda or pip.
 
@@ -37,13 +37,13 @@ For faster training, preprocessed samples are packed into **HDF5 (.h5)** files.
 
 ### Notebooks (in repository root)
 - **SHHS**
-  - `SHHS_preprocessing_staging.ipynb` (sleep staging)
+  - `SHHS_preprocessing_staging.ipynb` (sleep staging/pretraining)
   - `SHHS_preprocessing_apnea.ipynb` (apnea)
 - **MESA**
-  - `MESA_staging.ipynb` (sleep staging)
+  - `MESA_staging.ipynb` (sleep staging/pretraining)
   - `MESA_apnea.ipynb` (apnea)
 - **PSG audio**
-  - `psg_audio_preprocessing.ipynb`
+  - `psg_audio_preprocessing.ipynb`(pretraining)
 - **HDF5 packing**
   - `h5.ipynb` — converts per-epoch NumPy files into compressed `.h5` datasets for efficient training
 
