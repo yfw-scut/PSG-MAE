@@ -40,8 +40,8 @@ For faster training, preprocessed samples are packed into **HDF5 (.h5)** files.
   - `SHHS_preprocessing_staging.ipynb` (sleep staging/pretraining)
   - `SHHS_preprocessing_apnea.ipynb` (apnea)
 - **MESA**
-  - `MESA_staging.ipynb` (sleep staging/pretraining)
-  - `MESA_apnea.ipynb` (apnea)
+  - `mesa_staging.ipynb` (sleep staging/pretraining)
+  - `mesa_apnea.ipynb` (apnea)
 - **PSG audio**
   - `psg_audio_preprocessing.ipynb`(pretraining)
 - **HDF5 packing**
