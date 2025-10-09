@@ -30,7 +30,7 @@ pynndescent==0.5.13
 ```
 ---
 
-## 📦 Data & Preprocessing
+## Data & Preprocessing
 
 **Model input shape** per epoch: **(5, 3000)** = **5 channels × 30 s × 100 Hz**.
 For faster training, preprocessed samples are packed into **HDF5 (.h5)** files.
@@ -48,7 +48,7 @@ For faster training, preprocessed samples are packed into **HDF5 (.h5)** files.
   - `h5.ipynb` — converts per-epoch NumPy files into compressed `.h5` datasets for efficient training
 
 ### What preprocessing produces
-1. Run the dataset notebook(s) above: the **output directory** will contain multiple **subfolders**.
+1. Run the dataset notebooks above: the **output directory** will contain multiple **subfolders**.
    Each subfolder corresponds to one raw PSG **.edf** file and contains all **30 s epochs** saved as `.npy`.
 2. Run **`h5.ipynb`** to pack those `.npy` epochs into **HDF5** datasets used by the training scripts.
 ---
